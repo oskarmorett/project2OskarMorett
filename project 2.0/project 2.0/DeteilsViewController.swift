@@ -21,8 +21,7 @@ class DeteilsViewController: UIViewController {
       
       let url = URL(string: articleString)
       let request = URLRequest(url: url!)
-      print (url)
-     // print(request)
+    
       webView.loadRequest(request)
      
       

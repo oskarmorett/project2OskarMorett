@@ -35,8 +35,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
    
    
    
-   
-   
    override func viewDidLoad() {
       super.viewDidLoad()
       
@@ -54,11 +52,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
    }// >> Overite Func
    
    
-   
    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
       let detailVC = segue.destination as! DeteilsViewController
       detailVC.articleString = articles[currentArticle].url
-   
       
    }
    
